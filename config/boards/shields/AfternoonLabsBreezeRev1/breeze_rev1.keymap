@@ -49,17 +49,17 @@
 		};
 
 		numpad_layer { 
-// ---  NUMPAD  -------------------------------------------------------------------------------------------------------------------
-// |           |           |           |            |             |            |                           |       =       |      /       |      *       |      -     |          |            | |           |             |             |
-// |           |           |           |            |             |            |                           |       7       |      8       |      9       |      +     |          |            | |           |             |             |
-// |           |           |           |            |             |            |                           |       4       |      5       |      6       |            |          |            | |           |             |             |
-// |           |           |           |            |             |            |                           |       1       |      2       |      3       |            |          |            | |           |             |             |
+// ---  NUMPAD  -------------------------------------------------------------------------------------------------------------------                                                             ------          MAGENT SCREEN MACROS    -------
+// |           |           |           |            |             |            |                           |       =       |      /       |      *       |      -     |          |            | |   1/3 LEFT     |   1/3 CENT    |  1/3 RIGHT  |
+// |           |           |           |            |             |            |                           |       7       |      8       |      9       |      +     |          |            | |   2/3 LEFT     |               |  2/3 RIGHT  |
+// |           |           |           |            |             |            |                           |       4       |      5       |      6       |            |          |            | |                |     FULL      |             |
+// |           |           |           |            |             |            |                           |       1       |      2       |      3       |            |          |            | |   1/2 LEFT     |     FULL      |  1/2 RIGHT  |
 //                                     |            |             |            |            |  |           |       0       |      .       |              |
 			bindings = <
-    &trans     &trans      &trans      &trans       &trans        &trans                                   &kp EQUAL       &kp SLASH       &kp STAR        &kp MINUS     &trans     &trans        &trans      &trans        &trans
-    &trans     &trans      &trans      &trans       &trans        &trans                                   &kp KP_NUMBER_7 &kp KP_NUMBER_8 &kp KP_NUMBER_9 &kp PLUS      &trans     &trans        &trans      &trans        &trans
-    &trans     &trans      &trans      &trans       &trans        &trans                                   &kp KP_NUMBER_4 &kp KP_NUMBER_5 &kp KP_NUMBER_6 &trans        &trans     &trans                    &trans              
-    &trans     &trans      &trans      &trans       &trans        &trans                                   &kp KP_NUMBER_1 &kp KP_NUMBER_2 &kp KP_NUMBER_3 &trans        &trans     &trans        &trans      &trans        &trans
+    &trans     &trans      &trans      &trans       &trans        &trans                                   &kp EQUAL       &kp SLASH       &kp STAR        &kp MINUS     &trans     &trans       &kp LC(LA(D))    &kp LC(LA(F))   &kp LC(LA(G))
+    &trans     &trans      &trans      &trans       &trans        &trans                                   &kp KP_NUMBER_7 &kp KP_NUMBER_8 &kp KP_NUMBER_9 &kp PLUS      &trans     &trans       &kp LC(LA(E))    &trans          &kp LC(LA(T))
+    &trans     &trans      &trans      &trans       &trans        &trans                                   &kp KP_NUMBER_4 &kp KP_NUMBER_5 &kp KP_NUMBER_6 &trans        &trans     &trans                        &kp LC(LA(RET))              
+    &trans     &trans      &trans      &trans       &trans        &trans                                   &kp KP_NUMBER_1 &kp KP_NUMBER_2 &kp KP_NUMBER_3 &trans        &trans     &trans       &kp LC(LA(LEFT)) &kp LC(LA(RET)) &kp LC(LA(RIGHT))
                                        &trans       &trans        &trans        &trans          &trans     &kp KP_NUMBER_0 &kp KP_DOT      &trans
 			>;
 		};
