@@ -63,5 +63,17 @@
                                        &trans       &trans        &trans        &trans          &trans     &kp KP_NUMBER_0 &kp KP_DOT      &trans
 			>;
 		};
+				extra1 {
+            status = "reserved";
+        };
+        extra2 {
+            status = "reserved";
+        };
+        extra3 {
+            status = "reserved";
+        };
+        extra4 {
+            status = "reserved";
+        };
 	};
 };
